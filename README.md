@@ -5,13 +5,13 @@
 ## プログラムの実行方法
 何となく推測してください(あとで補足説明付け足すかも…)
 
-gcc t.c
+gcc t.c  
 ./a.out
 
-g++ t.cpp
+g++ t.cpp  
 ./a.out
 
-javac t.java
+javac t.java  
 java t
 
 php t.php
