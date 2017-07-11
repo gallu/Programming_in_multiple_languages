@@ -26,7 +26,7 @@ bash ./t.sh
 
 bf ./t.bf
 
-go build t.go
+go build t.go  
 ./t
 
 
