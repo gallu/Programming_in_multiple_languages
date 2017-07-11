@@ -41,25 +41,23 @@ yum install java-1.7.0-openjdk-devel.x86_64
 yum install ruby  
 type python  
 yum -y install gcc-objc  
-yum install git
-yum install make
-git clone https://github.com/kgabis/brainfuck-c.git
-cd brainfuck-c/
-make
-ln -s /root/Programming_in_multiple_languages/brainfuck-c/bf  /usr/bin/
-cd /usr/src
-yum install wget
-wget https://storage.googleapis.com/golang/go1.8.3.src.tar.gz
-tar zvxf go1.8.3.src.tar.gz
-cd go/src
-mkdir tmp
-wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
-tar zxvf go1.4.2.linux-amd64.tar.gz -C tmp/
-mv tmp/go ~/go1.4
-./all.bash
- /usr/src/go/bin/go /usr/bin/
-
-
+yum install git  
+yum install make  
+git clone https://github.com/kgabis/brainfuck-c.git  
+cd brainfuck-c/  
+make  
+ln -s /root/Programming_in_multiple_languages/brainfuck-c/bf  /usr/bin/  
+cd /usr/src  
+yum install wget  
+wget https://storage.googleapis.com/golang/go1.8.3.src.tar.gz  
+tar zvxf go1.8.3.src.tar.gz  
+cd go/src  
+mkdir tmp  
+wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz  
+tar zxvf go1.4.2.linux-amd64.tar.gz -C tmp/  
+mv tmp/go ~/go1.4  
+./all.bash  
+ /usr/src/go/bin/go /usr/bin/  
 
 
 
