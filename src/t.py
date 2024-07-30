@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
-print 'Hello Python World.'
+print('Hello Python World.')
 
