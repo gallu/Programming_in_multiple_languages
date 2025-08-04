@@ -1,0 +1,15 @@
+配列
+
+int  		     iarr[] = {1, 2, 3}; // C
+std::vector<int> iarr   = {1, 2, 3}; // C++
+int[]            iarr   = {1, 2, 3}; // Java
+var              iarr   = [1, 2, 3]; // JavaScript
+                $iarr   = [1, 2, 3]; // PHP
+my              @iarr   = (1, 2, 3); // Perl
+                 iarr   = [1, 2, 3]; // Python
+                 iarr   = [1, 2, 3]; // Ruby
+
+iarr[0]
+iarr[1]
+iarr[2]
+
