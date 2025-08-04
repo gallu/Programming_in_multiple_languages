@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 my $i = 10;
-while(0 <= $i) {
+while(0 < $i) {
   $i --;
   print ".";
 }

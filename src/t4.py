@@ -1,6 +1,6 @@
 import sys
 
 i = 10;
-while 0 <= i:
+while 0 < i:
   i -= 1
   sys.stdout.write(".")
