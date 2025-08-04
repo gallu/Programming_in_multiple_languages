@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 i = 10;
 if  i == 5:
   print("i is 5")

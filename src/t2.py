@@ -1,7 +1,4 @@
-#!/usr/bin/python
-
 i = 10
-s = u"Python string"
-#print i, ', ', s;
+s = "Python string"
 print('%d, %s' % (i, s))
 
